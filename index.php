@@ -18,7 +18,7 @@
         fclose($ourfile);
 
 
-        // file create
+        // create and write file 
 
         $filecreate = fopen("new.txt" , "w") or die ("File not found");
         
